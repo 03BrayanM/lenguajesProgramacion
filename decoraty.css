@@ -1,0 +1,99 @@
+
+/* Selector de Clases para alineación de texto para elementos. */
+body {
+  color: #5C33A8;
+}
+.centrar {
+  text-align: center;
+}
+
+.izquierda {
+  text-align: left;
+}
+
+.derecha {
+  text-align: right;
+}
+
+.borde-redondeado {
+  border-radius: 7%;
+  margin: 1px;
+}
+
+/* Contenedor principal que usa CSS Grid.
+   Crea una cuadrícula de 3 columnas de igual ancho y añade un espacio entre ellas.
+*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1%;
+}
+
+/* Clase para divs horizontales */
+.div-horizontal {
+  display: block;
+  width: 100%;
+  background-color: #DEB887;
+  border-radius: 7%;
+  padding: 5%;
+}
+
+/* Selectores de agrupación para elementos de texto */
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+  color: #5C33A8;
+}
+
+p, figcaption {
+  font-family: Georgia, serif;
+}
+
+/* Selectores de ID para usar en los divs*/
+#AlineacionDerecha {
+  background-color: #C35688;
+  border-color: #851147;
+  border-width: 2px;
+  border-style: solid;
+  padding: 2%;
+}
+
+#AlineacionCentrado {
+  background-color: #B9D992;
+  border-color: #679134;
+  border-width: 2px;
+  border-style: solid;
+  padding: 2%;
+}
+
+#AlineacionIzquierda {
+  background-color: #95A8D9;
+  border-color: #5578D1;
+  border-width: 2px;
+  border-style: solid;
+  padding: 7%;
+}
+
+/* Configuración para las imágenes */
+figure {
+  display: flex;   
+  align-items: center;
+  gap: 3px;
+}
+
+figure img {
+  width: 70px;
+  height: 80px;
+}
+
+figure figcaption {
+  font-size: 30px;   
+  font-weight: bold;   
+  color: #000000;   
+}
+/* Clase para DIV horizontales */
+.descripcion-pagina {
+  background-color: #DEB887;
+  border-width: 2px;
+  padding: 2%;
+  gap: 1%;
+}
